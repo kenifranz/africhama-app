@@ -1,0 +1,116 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: center;
+    color: #2ecc71;
+    margin-bottom: 1.5rem;
+  }
+  
+  .createTicketSection, .ticketHistorySection {
+    margin-bottom: 2rem;
+  }
+  
+  .createTicketSection h3, .ticketHistorySection h3 {
+    color: #2ecc71;
+    margin-bottom: 1rem;
+  }
+  
+  .ticketForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .formGroup input, .formGroup textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .formGroup textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .submitButton {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #27ae60;
+  }
+  
+  .submitButton:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .ticketList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .ticketItem {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  .ticketHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .ticketStatus {
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+  }
+  
+  .ticketItem p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .ticketItem small {
+    color: #777;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .submitButton {
+      width: 100%;
+    }
+  }

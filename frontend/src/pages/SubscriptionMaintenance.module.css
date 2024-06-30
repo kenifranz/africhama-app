@@ -1,0 +1,65 @@
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .container h2 {
+    text-align: center;
+    color: #2ecc71;
+    margin-bottom: 1.5rem;
+  }
+  
+  .subscriptionSection, .maintenanceSection {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .subscriptionSection h3, .maintenanceSection h3 {
+    color: #2ecc71;
+    margin-bottom: 1rem;
+  }
+  
+  .actionButton {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .actionButton:hover {
+    background-color: #27ae60;
+  }
+  
+  .actionButton:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  p {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 600px) {
+    .container {
+      padding: 1rem;
+    }
+  
+    .subscriptionSection, .maintenanceSection {
+      padding: 1rem;
+    }
+  
+    .actionButton {
+      width: 100%;
+    }
+  }

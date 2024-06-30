@@ -1,0 +1,117 @@
+.profileContainer {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileHeader {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .profilePicture {
+    width: 120px;
+    height: 120px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    margin: 0 auto 1rem;
+  }
+  
+  .profileHeader h1 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .memberCode {
+    display: inline-block;
+    background-color: #2ecc71;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .profileContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+  
+  .userInfo, .accountStatus, .profileActions {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .userInfo h2, .accountStatus h2, .profileActions h2 {
+    color: #2ecc71;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .infoGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  
+  .infoGrid div {
+    margin-bottom: 0.5rem;
+  }
+  
+  .statusItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .active, .paid {
+    color: #2ecc71;
+    font-weight: bold;
+  }
+  
+  .actionButton {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actionButton:hover {
+    background-color: #27ae60;
+  }
+  
+  .loading, .error {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+  }
+  
+  .error {
+    color: #e74c3c;
+  }
+  
+  @media (max-width: 768px) {
+    .profileContent {
+      grid-template-columns: 1fr;
+    }
+  
+    .infoGrid {
+      grid-template-columns: 1fr;
+    }
+  }

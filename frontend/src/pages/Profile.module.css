@@ -1,0 +1,77 @@
+.profileContainer {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profileContainer h2 {
+    text-align: center;
+    color: #2ecc71;
+    margin-bottom: 1.5rem;
+  }
+  
+  .profileForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  
+  .formGroup label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  .formGroup input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .formGroup input:disabled {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+  }
+  
+  .editButton, .saveButton {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 0.75rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+  }
+  
+  .editButton:hover, .saveButton:hover {
+    background-color: #27ae60;
+  }
+  
+  .saveButton:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .memberInfo {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ddd;
+  }
+  
+  .memberInfo p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .memberInfo strong {
+    color: #2ecc71;
+  }
